@@ -19,7 +19,7 @@ To use this tool, you'll need Python installed on your machine. Follow these ste
    ```bash
    git clone https://github.com/yourusername/port-scanner.git
 
-``` cd python_fastport_Scanner
+```bash cd python_fastport_Scanner
 
 
 pip install -r requirements.txt
