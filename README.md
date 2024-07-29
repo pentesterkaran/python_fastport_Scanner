@@ -33,7 +33,7 @@ To use this tool, you'll need Python installed on your machine. Follow these ste
 
     ```sh
     python port_scanner.py -i [TARGET] -s [START_PORT] -e [END_PORT] [-t THREADS]
-    ```
+    
 
 Arguments
 * -i, --target: Target IP or domain to scan (required).
