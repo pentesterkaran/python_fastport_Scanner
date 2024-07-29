@@ -29,12 +29,22 @@ To use this tool, you'll need Python installed on your machine. Follow these ste
     pip install -r requirements.txt 
     ```
 
-4. Example Format
+## Usage
+
     ```sh
     python port_scanner.py -i [TARGET] -s [START_PORT] -e [END_PORT] [-t THREADS]
     ```
 
-6. Start Using
+Arguments
+* -i, --target: Target IP or domain to scan (required).
+* -s, --start: Start port number (required).
+* -e, --end: End port number (required).
+* -t, --threads: Number of threads to use (optional, default is 10).
+
+
+1. Example
     ```sh
     python port_scanner.py -i example.com -s 1 -e 65535 -t 20
     ```
+
+### creator - pentesterkaran
