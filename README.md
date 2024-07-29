@@ -20,12 +20,18 @@ To use this tool, you'll need Python installed on your machine. Follow these ste
    git clone https://github.com/pentesterkaran/python_fastport_Scanner.git
 
 2. Change directory to python_fastport_Scanner
-```bash 
-    cd python_fastport_Scanner ```
+```sh
+    cd python_fastport_Scanner 
+```
 
 
-```bash pip install -r requirements.txt 
+```sh pip install -r requirements.txt 
+```
 
+```sh
 python port_scanner.py -i [TARGET] -s [START_PORT] -e [END_PORT] [-t THREADS]
+```
 
+```sh
 python port_scanner.py -i example.com -s 1 -e 65535 -t 20
+```
