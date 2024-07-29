@@ -1,5 +1,3 @@
-# python_fastport_Scanner
-
 # 🔍 Port Scanner
 
 Welcome to the **Port Scanner** project! This tool is designed to scan and identify open ports on a given IP address or domain, making it a useful tool for network administrators and security enthusiasts.
@@ -26,13 +24,13 @@ To use this tool, you'll need Python installed on your machine. Follow these ste
 
 3. Install required modules
     ```sh 
-    pip install -r requirements.txt 
+    pip3 install -r requirements.txt 
     ```
 
 ## Usage
 
     
-    python port_scanner.py -i [TARGET] -s [START_PORT] -e [END_PORT] [-t THREADS]
+    python3 port_scanner.py -i [TARGET] -s [START_PORT] -e [END_PORT] [-t THREADS]
     
 
 Arguments
@@ -44,7 +42,7 @@ Arguments
 
 1. Example
     ```sh
-    python port_scanner.py -i example.com -s 1 -e 65535 -t 20
+    python3 port_scanner.py -i example.com -s 1 -e 65535 -t 20
     ```
 
-### creator - pentesterkaran
+###    --------- creator : pentesterkaran -------------
